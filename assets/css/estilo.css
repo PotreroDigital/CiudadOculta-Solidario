@@ -24,7 +24,7 @@
 		width: 80%;
 		margin: auto;
 		display: block;
-		
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1642,7 +1642,9 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Poppins", sans-serif;
+
+
+	  font-family: "Poppins", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1701,6 +1703,7 @@
 		}
 
 	h2 {
+		
 		font-size: 1.75rem;
 	}
 
