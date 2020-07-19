@@ -64,8 +64,7 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
-/* Containers */
+/*Contenedor*/
 .contenedor{
 	height: 0;
 	overflow: hidden;
@@ -82,6 +81,14 @@
 	width: 100%;
 
 }
+@@media screen and (max-width: 1000px) {
+	{
+		width: auto;
+	}
+
+}
+/* Containers */
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
