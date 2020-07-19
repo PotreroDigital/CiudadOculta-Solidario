@@ -19,6 +19,14 @@
 		vertical-align: baseline;
 	}
 
+	iframe{
+		padding-top: 10px;
+		width: 80%;
+		margin: auto;
+		display: block;
+		
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
