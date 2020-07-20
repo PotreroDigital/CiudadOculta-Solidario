@@ -65,28 +65,27 @@
 		box-sizing: border-box;
 	}
 /*Contenedor*/
-.contenedor{
-	height: 0;
-	overflow: hidden;
+.video-youtube{
+	border: 3px solid blue;
+	height: 0px;
 	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
+  position: relative;
 
 }
-.contenedor iframe{
+.video-youtube iframe{
 	height: 100%;
 	left: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
-
 }
-@media screen and (max-width: 1000px) {
-	{
-		width: auto;
-	}
 
+.youtube-wrapper{
+	width: 50%;
+	margin: auto;
 }
+
+
 /* Containers */
 
 	.container {

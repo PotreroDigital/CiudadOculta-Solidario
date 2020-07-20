@@ -48,7 +48,26 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	/*Contenedor*/
+	.video-youtube{
+		border: 3px solid blue;
+		height: 0px;
+		padding-bottom: 56.25%;
+	  position: relative;
 
+	}
+	.video-youtube iframe{
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	.youtube-wrapper{
+		width: 50%;
+		margin: auto;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
